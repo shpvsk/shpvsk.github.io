@@ -1,8 +1,8 @@
 # max-gith.github.io
 
 or create a new repository on the command line <br/>
-echo "# max-gith.github.io" > README.md <br/>
  <br/>
+echo "# max-gith.github.io" > README.md <br/>
 git init <br/>
 git add README.md <br/>
 git commit -m "first commit" <br/>
