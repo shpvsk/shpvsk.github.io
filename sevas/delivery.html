@@ -1,1 +1,270 @@
-<!DOCTYPE html><html lang="ru"><head>	<meta charset="UTF-8">	<title>Доставка | SEVAS</title>	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">	<meta property="og:type" content="website">	<meta property="og:image" content="img/og/og-index.jpg">	<!-- Bootstrap CSS -->	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	<!-- Main CSS -->	<link rel="stylesheet" href="css/main.css"></head><body><!-- header --><header class="header" id="header">	<div class="navigation">		<div class="container">			<div class="row align-items-center align-items-lg-stretch">				<div class="col-6 col-lg-2 order-1 order-lg-0 d-flex align-items-start align-items-lg-center flex-column">					<a href="/" class="navigation__logo">						<svg class="icon icon-logo">							<use xlink:href="img/sprite.svg#logo"></use>						</svg>					</a>					<p class="navigation__text d-none d-lg-block">						...<br>						магазин кальянов и аксессуаров для них						<br>...					</p>				</div>				<div class="col-2 col-lg-7 order-3 order-lg-0">					<div class="burger-menu">						<a href="#" class="burger-menu__button d-block d-lg-none">							<span class="burger-menu__lines"></span>						</a>						<nav class="nav">							<ul class="nav__list d-flex">								<li class="nav__item">									<a href="index.html" class="nav__link">										Главная									</a>								</li>								<li class="nav__item">									<a href="catalog.html" class="nav__link">										Каталог									</a>									<ul class="sub-menu">										<li>											<a href="hookahs.html">Кальяны</a>											<ul class="sub-menu">												<li><a href="hookahs.html">Кальяны</a></li>												<li><a href="tobacco.html">Кальяны</a></li>												<li><a href="coal.html">Кальяны</a></li>												<li><a href="component.html">Кальяны</a></li>											</ul>										</li>										<li>											<a href="tobacco.html">Табаки</a>											<ul class="sub-menu">												<li><a href="hookahs.html">Табаки</a></li>												<li><a href="tobacco.html">Табаки</a></li>												<li><a href="coal.html">Табаки</a></li>												<li><a href="component.html">Табаки</a></li>											</ul>										</li>										<li>											<a href="coal.html">Уголь</a>											<ul class="sub-menu">												<li><a href="hookahs.html">Уголь</a></li>												<li><a href="tobacco.html">Уголь</a></li>												<li><a href="coal.html">Уголь</a></li>												<li><a href="component.html">Уголь</a></li>											</ul>										</li>										<li>											<a href="component.html">Комплектующие</a>											<ul class="sub-menu">												<li><a href="hookahs.html">Комплектующие</a></li>												<li><a href="tobacco.html">Комплектующие</a></li>												<li><a href="coal.html">Комплектующие</a></li>												<li><a href="component.html">Комплектующие</a></li>											</ul>										</li>										<!-- <button class="sub-menu__btn btn">											Назад										</button> -->									</ul>								</li>								<li class="nav__item">									<a href="delivery.html" class="nav__link">										Доставка									</a>								</li>								<li class="nav__item">									<a href="contacts.html" class="nav__link">										Контакты									</a>								</li>							</ul>						</nav>						<div class="burger-menu__overlay"></div>					</div>				</div>				<div class="col-4 col-lg-3 order-2 order-lg-0 d-flex justify-content-between">					<div class="search">						<form action="" method="get" class="search__form d-none d-md-flex">							<button type="submit" class="search__btn">								<svg class="icon icon-magnifier">									<use xlink:href="img/sprite.svg#magnifier"></use>								</svg>							</button>							<input name="s" placeholder="поиск" type="search" class="search__input">						</form>					</div>					<div class="cart">						<a href="#" class="cart__link"></a>					</div>				</div>			</div>		</div>	</div></header><section class="delivery">	<div class="container">		<div class="row">			<div class="col text-center">				<h2 class="delivery-title">					Доставка				</h2>				<h3 class="delivery-subtitle">					Заполни эту форму и мы всё привезём тебе, куда скажешь				</h3>				<div class="delivery-text">					При заказе до 1000 руб. - стоимость доставки составит 300 руб. <br>					При заказе от 1000 руб. - доставка осуществлятся бесплатно.				</div>			</div>		</div>		<div class="row">			<div class="col">			<form class="delivery-form">				<div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">					<span>Имя</span>					<input type="text" name="name" placeholder="Имя">				</div>				<div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">					<span>Адрес</span>					<input type="text" name="name" placeholder="Адрес">				</div>				<div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">					<span>Телефон</span>					<input type="text" id="tel" name="name" placeholder="Телефон">				</div>				<div class="delivery-form__send d-flex flex-column flex-md-row justify-content-between align-items-center">					<div class="delivery-form__text order-2 order-md-0">						Нажимая кнопку “Отправить” я даю своё согласие на <a href="#" class="delivery-form__link">обработку персональных данных</a>					</div>					<button type="submit" class="delivery-form__btn btn order-1 order-md-0">						Отправить					</button>				</div>			</form>			</div>		</div>	</div></section><footer class="footer" style="height: 200px; background: grey; line-height: 200px">	<div class="container">		<div class="row">			<div class="col text-center">				footer			</div>		</div>	</div></footer><div style="display: none;">	<div class="box-modal collback-modal" id="collback-modal">		<div class="box-modal_close arcticmodal-close">			<!-- <picture><source srcset="img/icon-closed.svg" type="image/webp"><img src="img/icon-closed.svg" alt="" class="box-modal__img"></picture> -->		</div>		<form action="#" class="form-call text-center">			<h4 class="form-call__title">				Оставьте заявку на обратный звонок			</h4>			<div class="form-call__wrap">				<div class="form-call__wrap-input">					<input type="text" id="name" class="form-call__input text-center" name="name" placeholder="Ваше имя" required>				</div>				<div class="form-call__wrap-input">					<input type="tel" id="phone" class="form-call__input text-center" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Номер Вашего телефона*" required>				</div>			</div>			<button type="button" id="submit" data-submit class="form-call__btn btn">				Отправить заявку			</button>		</form>	</div></div><!-- scripts --><script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/slick.js"></script><script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script><script type="text/javascript" src="js/jquery.maskedinput.js"></script><script type="text/javascript" src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Доставка | SEVAS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="img/og/og-index.jpg">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- header -->
+<header class="header" id="header">
+	<div class="navigation">
+		<div class="container">
+			<div class="row align-items-center align-items-lg-stretch">
+				<div class="col-6 col-lg-2 order-1 order-lg-0 d-flex align-items-start align-items-lg-center flex-column">
+					<a href="/" class="navigation__logo">
+						<svg class="icon icon-logo">
+							<use xlink:href="img/sprite.svg#logo"></use>
+						</svg>
+					</a>
+					<p class="navigation__text d-none d-lg-block">
+						...<br>
+						магазин кальянов и аксессуаров для них
+						<br>...
+					</p>
+				</div>
+				<div class="col-2 col-lg-7 order-3 order-lg-0">
+					<div class="burger-menu">
+						<a href="#" class="burger-menu__button d-block d-lg-none">
+							<span class="burger-menu__lines"></span>
+						</a>
+						<nav class="nav">
+							<ul class="nav__list d-flex">
+								<li class="nav__item">
+									<a href="index.html" class="nav__link">
+										Главная
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="catalog.html" class="nav__link">
+										Каталог
+									</a>
+									<ul class="sub-menu">
+										<li>
+											<a href="hookahs.html">Кальяны</a>
+											<ul class="sub-menu">
+												<li><a href="hookahs.html">Кальяны</a></li>
+												<li><a href="tobacco.html">Кальяны</a></li>
+												<li><a href="coal.html">Кальяны</a></li>
+												<li><a href="component.html">Кальяны</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="tobacco.html">Табаки</a>
+											<ul class="sub-menu">
+												<li><a href="hookahs.html">Табаки</a></li>
+												<li><a href="tobacco.html">Табаки</a></li>
+												<li><a href="coal.html">Табаки</a></li>
+												<li><a href="component.html">Табаки</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="coal.html">Уголь</a>
+											<ul class="sub-menu">
+												<li><a href="hookahs.html">Уголь</a></li>
+												<li><a href="tobacco.html">Уголь</a></li>
+												<li><a href="coal.html">Уголь</a></li>
+												<li><a href="component.html">Уголь</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="component.html">Комплектующие</a>
+											<ul class="sub-menu">
+												<li><a href="hookahs.html">Комплектующие</a></li>
+												<li><a href="tobacco.html">Комплектующие</a></li>
+												<li><a href="coal.html">Комплектующие</a></li>
+												<li><a href="component.html">Комплектующие</a></li>
+											</ul>
+										</li>
+										<!-- <button class="sub-menu__btn btn">
+											Назад
+										</button> -->
+									</ul>
+								</li>
+								<li class="nav__item">
+									<a href="delivery.html" class="nav__link">
+										Доставка
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="contacts.html" class="nav__link">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="burger-menu__overlay"></div>
+					</div>
+				</div>
+				<div class="col-4 col-lg-3 order-2 order-lg-0 d-flex justify-content-between order-block">
+					<div class="search">
+						<form action="" method="get" class="search__form d-none d-md-flex">
+							<button type="submit" class="search__btn">
+								<svg class="icon icon-magnifier">
+									<use xlink:href="img/sprite.svg#magnifier"></use>
+								</svg>
+							</button>
+							<input name="s" placeholder="поиск" type="search" class="search__input">
+							<!-- search result -->
+							<div class="search-result search-result__active">
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Кальян Большой				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Шахта для кальяны				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Кальян Большой				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Алтайский сбор				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Банановое мороженое				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Байкальский краш				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										PinkMan				</a>
+								</div>
+								<div class="search-result__text">
+									<a href="#" class="search-result__link">
+										Табак Element (Вода) — Pear (Груша)				</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="cart">
+						<a href="#" class="cart__link"></a>
+						<div class="cart__product"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="delivery">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="delivery-title text-center">
+					Доставка
+				</h2>
+				<h3 class="delivery-subtitle text-center">
+					Заполни эту форму и мы свяжемся с тобой, обсудим детали
+				</h3>
+				<p class="delivery-text text-center">
+					Но сначала, ознакомься с условиями!
+				</p>
+				<div class="delivery-terms">
+					<h4 class="delivery-terms__title text-center">
+						Условия доставки по Воронежу
+					</h4>
+					<p class="delivery-terms__text">
+						От 1500₽ бесплатно в пределах города
+					</p>
+					<p class="delivery-terms__text">
+						До 1500₽ уточняйте стоимость у менеджера
+					</p>
+				</div>
+				<div class="delivery-terms">
+					<h4 class="delivery-terms__title text-center">
+						Отправка другие города
+					</h4>
+					<p class="delivery-terms__text">
+						Доставка в регионы любой ТК (ПЭК, Байкал, СДЭК и другие)
+					</p>
+					<p class="delivery-terms__text">
+						Доставка до терминала тк бесплатно
+					</p>
+					<p class="delivery-terms__text">
+						Доставку Вы оплачиваете на месте при получении товара (тарифы можно уточнить на сайте ТК)
+					</p>
+					<p class="delivery-terms__text">
+						Отправка в регионы осуществляется только при 100% оплате
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+			<form class="delivery-form">
+				<div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">
+					<span>Имя</span>
+					<input class="delivery-form__input" type="text" name="name" placeholder="Имя">
+				</div>
+				<!-- <div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">
+					<span>Адрес</span>
+					<input type="text" name="name" placeholder="Адрес">
+				</div> -->
+				<div class="delivery-form__wrap d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center">
+					<span>Телефон</span>
+					<input class="delivery-form__input" type="text" id="tel" name="name" placeholder="Телефон">
+				</div>
+				<div class="delivery-form__send d-flex flex-column flex-md-row justify-content-between align-items-center">
+					<div class="delivery-form__text order-2 order-md-0">
+						Нажимая кнопку “Отправить” я даю своё согласие на <a href="#" class="delivery-form__link">обработку персональных данных</a>
+					</div>
+					<button type="submit" class="delivery-form__btn btn order-1 order-md-0">
+						Отправить
+					</button>
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer" style="height: 200px; background: grey; line-height: 200px">
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				footer
+			</div>
+		</div>
+	</div>
+</footer>
+<div style="display: none;">
+	<div class="box-modal collback-modal" id="collback-modal">
+		<div class="box-modal_close arcticmodal-close">
+			<!-- <img src="img/icon-closed.svg" alt="" class="box-modal__img"> -->
+		</div>
+		<form action="#" class="form-call text-center">
+			<h4 class="form-call__title">
+				Оставьте заявку на обратный звонок
+			</h4>
+			<div class="form-call__wrap">
+				<div class="form-call__wrap-input">
+					<input type="text" id="name" class="form-call__input text-center" name="name" placeholder="Ваше имя" required>
+				</div>
+				<div class="form-call__wrap-input">
+					<input type="tel" id="phone" class="form-call__input text-center" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Номер Вашего телефона*" required>
+				</div>
+			</div>
+			<button type="button" id="submit" data-submit class="form-call__btn btn">
+				Отправить заявку
+			</button>
+		</form>
+	</div>
+</div>
+<!-- scripts -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
